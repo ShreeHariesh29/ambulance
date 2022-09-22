@@ -20,14 +20,14 @@
 	</div>
 	
 	<!--Step 1 : Adding HTML-->
-	<form action="/action_page.php">
+	<form >
 		<div class="imgcontainer">
 			<img src="image/eaa.jpg"alt="hii" class="avatar">
 		</div>
 
 		<div class="mailbox">
 			<p style="text-align:center; font-family: 'Times New Roman', Times, serif; margin-left: 4%;"><b>Username</b></p>
-			<input id="fisrt" type="text" placeholder="Enter Username" class="uname" required>
+			<input id="first" type="text" placeholder="Enter Username" class="uname" required>
 		</div>
 
         <div class="box">
@@ -35,7 +35,7 @@
 			<input id="second" type="password" class="pass" placeholder="Enter Password" name="psw" required>
         </div>
 		<div class="submit">
-			<button type="submit" style="border-radius: 10px; margin: 15px ; margin-left: 16px;"><a href="nextpage.html">login</a></button>
+			<button type="submit" style="border-radius: 10px; margin: 15px ; margin-left: 16px;" onclick="pwdverify()"></button>
 			<input type="checkbox" checked="checked" class="remainder"> Remember me
 		</div>
 
