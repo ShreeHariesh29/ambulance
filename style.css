@@ -28,7 +28,11 @@
 		width: 30%;
 	}
 	/* set a hover effect for the button*/
-	
+	.mailbox{
+		text-align:center;
+		font-family: 'Times New Roman', Times, serif;
+		margin-left: 4%;
+	}
 	button:hover {
 		opacity: 0.8;
 	}
@@ -123,4 +127,5 @@
 	display: grid;	
 
 }
+
 
